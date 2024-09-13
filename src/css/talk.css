@@ -1,0 +1,99 @@
+.talk-main{
+  background-color: rgb(0, 0, 0);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+.talk-main h2{
+  font-size: 30px;
+  margin-bottom: 15px;
+} 
+.talk-main p{
+  color: rgb(255, 255, 255);
+}
+.talk-main h4{
+  color: rgb(255, 255, 255);
+  margin-bottom:10px;
+}
+
+.talk-main .name-talk{
+  width: 80vw;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  background-color: rgb(23, 21, 31);
+  margin-bottom: 20px;
+  color: white;
+}
+.talk-main .name-email{
+  border: none;
+  border-radius: 5px;
+  width: 80vw;
+  height: 30px;
+  background-color: rgb(23, 21, 31);
+  margin-bottom: 20px;
+  color: white;
+}
+
+.talk-main .name-message{
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  width: 80vw;
+  height: 100px;
+  background-color: rgb(23, 21, 31);
+  margin-bottom: 40px;
+  color: white;
+}
+.talk-forms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bttn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.talk-btn{
+  border: 2px solid blue;
+  background-color: black;
+  padding: 20px 40px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.talk-btn:hover{
+  background-color: rgb(8, 8, 228);
+}
+@media screen and (min-width:900px) {
+  .talk-main{
+    flex-direction: row;
+  }
+  .talk-main .name-email,.talk-main .name-message,.talk-main .name-talk{
+    width: 50vw;
+  }
+  .talk-main p{
+    line-height: 1.5;
+  }
+}
+
+
+.talk-forms input{
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+
+.load{
+  border: 2px solid blue;
+    background-color: black;
+    padding: 20px 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
